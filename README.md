@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Elixir when modifying a list while iterating over it using `Enum.each`. The `bug.exs` file contains the erroneous code. The `bugSolution.exs` file provides a corrected version using `Enum.reduce` to avoid the error.  Always exercise caution when modifying data structures while iterating over them to prevent unforeseen consequences.
